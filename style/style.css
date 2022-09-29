@@ -1,0 +1,902 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.conteiner{
+    width: 100%;
+    height: 100vh;
+}
+.allWith{
+    width: 85%;
+    margin: auto;
+}
+
+
+.conteiner header .allWith .navbar{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.conteiner header .allWith .navbar .right{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.conteiner header .allWith .navbar .right ul{
+    display: flex;
+    gap: 50px;
+
+    position: absolute;
+    right: 600px;
+    font-size: 25px;
+    color: black;
+    transition: 0.5s;
+    top: 32px;
+   
+
+}
+.conteiner header .allWith .navbar .right ul li:hover{
+     border: 1px solid transparent;
+     font-size: 18px;
+     font-weight: 600;
+     padding: 13px 20px;
+     border-radius: 50px;
+     background: rgb(92, 144, 255);
+     color: black;
+}
+.conteiner header .allWith .navbar .right span{
+    font-size: 25px;
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+.conteiner header .allWith .navbar .right p{
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px;
+   
+    
+}
+/*  */
+/*  */
+
+.conteiner .powerful .allWith .tool{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.conteiner .powerful .allWith .tool .left1{
+    width: 40%;
+    position: relative;
+    left: 40px;
+
+}
+.conteiner .powerful .allWith .tool .left1 h1{
+    font-size: 97px;
+    font-weight: 500;
+}
+.conteiner .powerful .allWith .tool .left1 p{
+    font-size: 25px;
+    font-weight: 200;
+    position: relative;
+    top: 30px;
+}
+.conteiner .powerful .allWith .tool .left1  span{
+    border: 1px solid transparent;
+    background:rgb(92, 144, 255) ;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    top: 30px;
+    padding: 13px 20px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    
+}
+.conteiner .powerful .allWith .tool .left1  img{
+    position: relative;
+    top: 75px;
+    left: 20px;
+}
+
+ .conteiner .powerful .allWith .tool .right1{
+    width: 46%;
+ 
+ }
+
+
+.conteiner .powerful .allWith .tool .right1 img{
+    width: 100%;
+}
+/*  */
+/*  */
+.conteiner .coloblogo  .allWith h2{
+    text-align: center;
+    font-weight: 200;
+
+}
+.conteiner .coloblogo  .allWith img{
+    width: 100%;
+}
+/*  */
+.conteiner .result .allWith h1,
+.conteiner .result .allWith p{
+    text-align: center;
+}
+.conteiner .result .allWith h1{
+    font-size: 60px;
+}
+.conteiner .result .allWith p{
+    font-size: 25px;
+}
+/* .conteiner .result{
+    position: relative;
+    top: 50px;
+} */
+/*  */
+.conteiner .history .allWith .assest{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.conteiner .history .allWith .assest .live{
+    width: 22%;
+    text-align: center;
+    font-size: 20px;
+    transition: 1s all;
+}
+.conteiner .history .allWith .assest .m-1{
+    width: 22%;
+    text-align: center;
+    font-size: 20px;
+    transition: 1s all;
+
+}
+.conteiner .history .allWith .assest .searchable{
+    width: 22%;
+    text-align: center;
+    font-size: 20px;
+    transition: 1s all;
+ 
+}
+.conteiner .history .allWith .assest .unlimedet{
+    width: 22%;
+    text-align: center;
+    font-size: 20px;
+    transition: 1s all;
+
+} 
+.conteiner .history .allWith .assest .notif{
+    width: 22%;
+    text-align: center;
+    transition: 1s all;
+ 
+    font-size: 20px;
+    
+
+}
+.conteiner .history .allWith .assest .respon{
+    width: 22%;
+    text-align: center;
+    transition: 1s all;
+  
+    font-size: 20px;
+
+}
+.conteiner .history .allWith .assest .multi{
+    width: 22%;
+    text-align: center;
+    transition: 1s all;
+   
+    font-size: 20px;
+   
+
+}
+.conteiner .history .allWith .assest .versi{
+    width: 22%;
+    text-align: center;
+    transition: 1s all ;
+    font-size: 20px;
+
+}
+.conteiner .history .allWith .assest .live:hover{
+    transform: scale(1.3);
+}
+.conteiner .history .allWith .assest .m-1:hover{
+    transform: scale(1.3);
+}
+.conteiner .history .allWith .assest .searchable:hover{
+    transform: scale(1.3);
+}
+.conteiner .history .allWith .assest .unlimedet:hover{
+    transform: scale(1.3);
+}
+.conteiner .history .allWith .assest .notif:hover{
+    transform: scale(1.3);
+}
+.conteiner .history .allWith .assest .respon:hover{
+    transform: scale(1.3);
+}
+.conteiner .history .allWith .assest .multi:hover{
+    transform: scale(1.3);
+}
+
+.conteiner .history .allWith .assest .versi:hover{
+   transform: scale(1.3);
+}
+
+
+
+
+/*  */
+
+.conteiner .faster .allWith .ship{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.conteiner .faster .allWith .ship .left2{
+    width: 52%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+   
+}
+.conteiner .faster .allWith .ship .left2 img{
+    width: 95%;
+    height: 100%;
+}
+.conteiner .faster .allWith .ship .right2{
+    width: 40%;
+    height: 100%;
+
+}
+.conteiner .faster .allWith .ship .right2 h1{
+    font-size: 90px;
+    font-weight: 400;
+}
+.conteiner .faster .allWith .ship .right2 p{
+    font-size: 30px;
+    font-weight: 200;
+}
+.conteiner .faster .allWith .ship .right2 h4{
+    font-size: 25px;
+    margin-left: 100px;
+    font-weight:5 ;
+   
+}
+.conteiner .faster .allWith .ship .right2 span{
+    
+    border: 1px solid transparent ;
+    background:rgb(92, 144, 255) ;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 40px;
+    position: relative;
+    top: 55px;
+    left: 55px;
+    color: white;
+    border-radius: 15px;
+  
+
+
+  
+
+}
+/*  */
+/*  */
+
+.conteiner .upload .allWith .powerful{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+.conteiner .upload .allWith .powerful .left3{
+    width: 43%;
+}
+.conteiner .upload .allWith .powerful .left3 h2{
+    font-size: 90px;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.conteiner .upload .allWith .powerful .left3 p{
+    font-size: 30px;
+}
+.conteiner .upload .allWith .powerful .left3 #roberd{
+    width: 87%;
+}
+.conteiner .upload .allWith .powerful .left3 #sariq{
+    position: relative;
+    top: 100px;
+    left: 200px;
+
+}
+.conteiner .upload .allWith .powerful .left3 span{
+    border: 1px solid transparent;
+    background: rgb(92, 144, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 40px;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    top: 50px;
+
+}
+.conteiner .upload .allWith .powerful .right3{
+    width: 55%;
+    height: 100%;
+}
+.conteiner .upload .allWith .powerful .right3 img{
+    width: 100%;
+    height: 100%;
+   
+   
+
+}
+/*  */
+
+.conteiner .obstrakt .allWith .editoriol{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.conteiner .obstrakt .allWith .editoriol .left4{
+    width: 53%;
+    height: 100%;
+    align-items: center;
+
+}
+.conteiner .obstrakt .allWith .editoriol .left4 img{
+    width: 100%;
+    height: 100%;
+}
+.conteiner .obstrakt .allWith .editoriol  .right4{
+    width: 40%;
+    height: 100%;
+}
+.conteiner .obstrakt .allWith .editoriol  .right4 h1{
+    font-size: 70px;
+    font-weight: 500;
+
+}
+.conteiner .obstrakt .allWith .editoriol  .right4 p{
+    font-size: 30px;
+    font-weight: 100;
+}
+.conteiner .obstrakt .allWith .editoriol  .right4 .logoimp{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 10px;
+ 
+
+
+
+}
+.conteiner .obstrakt .allWith .editoriol  .right4 .logoimp {
+     animation: logoanim 5s infinite;
+     transition: 2s all;
+     box-shadow: 5px 5px 10px 5px ;
+}
+@keyframes logoanim {
+    0%{
+        background: linear-gradient(green,yellow);
+        border-radius: 40px;
+
+    }
+    25%{
+        background: linear-gradient(yellow, blue);
+        
+
+    }
+    50%{
+        background: linear-gradient(blue,red);
+        
+        
+    }
+    75%{
+        background: linear-gradient(red,black);
+        
+    }
+    100%{
+        background: linear-gradient(black,white);
+        border-radius: 40px;
+    }
+}
+/*  */
+.conteiner .ssimple{
+    margin-top: 100px;
+}
+.conteiner .ssimple .allWith #ple{
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+.conteiner .ssimple .allWith .fastfun{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+.conteiner .ssimple .allWith .fastfun .left5{
+    width: 33%;
+    text-align: center;
+
+
+}
+.conteiner .ssimple .allWith .fastfun .left5 img{
+    width: 85%;
+}
+.conteiner .ssimple .allWith .fastfun .left5 h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.conteiner .ssimple .allWith .fastfun .left5 p{
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+.conteiner .ssimple .allWith .fastfun .hit1{
+    width: 33%;
+    text-align: center;
+
+
+}
+.conteiner .ssimple .allWith .fastfun .hit1 img{
+    width: 85%;
+}
+.conteiner .ssimple .allWith .fastfun .hit1 h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.conteiner .ssimple .allWith .fastfun .hit1 p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+
+
+.conteiner .ssimple .allWith .fastfun .right5{
+    width: 33%;
+    text-align: center;
+
+
+}
+.conteiner .ssimple .allWith .fastfun .right5 img{
+    width: 85%;
+}
+.conteiner .ssimple .allWith .fastfun .right5 h1{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 50px;
+
+}
+.conteiner .ssimple .allWith .fastfun .right5 p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+/*  */
+.conteiner .world {
+    margin-top: 200px;
+}
+.conteiner .world .allWith #thewor{
+text-align: center;
+font-size: 70px;
+font-weight: 400;
+}
+.conteiner .world .allWith .problems{
+    width: 100%;
+    height: 900px;
+    margin-top: 120px;
+   
+    
+}
+.conteiner .world .allWith .problems .bottom1{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.conteiner .world .allWith .problems .bottom1 #yulduz{
+    width: 50%;
+    position: absolute;
+    left: 345px;
+}
+.conteiner .world .allWith .problems .bottom1 p{
+    font-size: 50px;
+    font-weight: 400;
+    position: absolute;
+    top: 80px;
+    left: 340px;
+
+}
+.conteiner .world .allWith .problems .bottom1  i{
+    font-size: 25px;
+    position: absolute;
+    top: 320px;
+    left: 340px;
+}
+.conteiner .world .allWith .problems .bottom1 #jingl{
+    position: absolute;
+    top: 400px;
+    left: 340px;
+
+}
+.conteiner .world .allWith .problems .bottom1 #stchap{
+    position: absolute;
+    top:420px ;
+    left: 1250px;
+}
+.conteiner .world .allWith .problems .bottom1 #stung{
+    position: absolute;
+    top:420px ;
+    left: 1300px;
+}
+.conteiner .world .allWith .problems .bottom1 #tepaga{
+    width: 8%;
+    position: absolute;
+    left: 130px;
+
+
+}
+ .conteiner .world .allWith .problems .bottom1 #pastga{
+    width: 8%;
+    position: absolute;
+    top:230px ;
+    left: 1350px;
+ }
+ .conteiner .world .allWith .problems .top2 {
+    
+    display: flex;
+    justify-content: space-around;
+
+ }
+ .conteiner .world .allWith .problems .top2 .item1{
+    width: 200px;
+    position: relative;
+   
+ }
+ .conteiner .world .allWith .problems .top2 .item1 p{
+    position: absolute;
+    left: 90px;
+    top:30px;
+    text-align: center;
+    font-size: 20px;
+    
+
+ }
+ .conteiner .world .allWith .problems .top2 .item2 h1{
+    font-size: 60px;
+    font-weight: 400;
+ }
+ .conteiner .world .allWith .problems .top2 .item2  span{
+    color: blue;
+ }
+ .conteiner .world .allWith .problems .top2 .item2 p{
+    font-size: 20px;
+    margin-top: 20px;
+ }
+ /*  */
+ .conteiner .allWith #wal{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 400;
+    margin-top: 100px;
+ }
+ .conteiner .allWith .fovoritet{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top:40px ;
+ }
+ .conteiner .allWith .fovoritet .rasmlar1{
+   width: 20%;
+   height: 250px;
+
+   
+ }
+ .conteiner .allWith .fovoritet .rasmlar2{
+    width: 20%;
+    height: 250px;
+    
+  }
+  .conteiner .allWith .fovoritet .rasmlar3{
+    width: 20%;
+    height: 250px;
+    
+  }
+  .conteiner .allWith .fovoritet .rasmlar4{
+    width: 20%;
+    height: 250px;
+
+  }
+  .conteiner .allWith .fovoritet .rasmlar5{
+    width: 20%;
+    height: 250px;
+    position: relative;
+    right: 10px;
+
+  }
+  .conteiner .allWith .fovoritet .rasmlar6{
+    height: 250px;
+    width: 15%;
+    position: relative;
+    right: 50px;
+  }
+  .conteiner .allWith .fovoritet .rasmlar7{
+    width: 15%;
+    height: 250px;
+    position: relative;
+    right: 50px;
+
+  }
+  .conteiner .allWith .fovoritet .rasmlar8{
+    width: 15%;
+    height: 250px;
+    position: relative;
+    right: 50px;
+
+  }
+  .conteiner .allWith .fovoritet .rasmlar9{
+    width: 15%;
+    height: 250px;
+    position: relative;
+    right: 50px;
+
+  }
+  .conteiner .allWith .fovoritet .rasmlar10{
+    width: 15%;
+    height: 250px;
+    position: relative;
+    right: 50px;
+
+  }
+  .conteiner .allWith .fovoritet .rasmlar11{
+    width: 16%;
+    height: 250px;
+    position: relative;
+    right: 50px;
+
+  }
+  .conteiner .allWith .fovoritet #ikkikuz:hover{
+      transition: 1s all;
+      transform: scale(1.5);
+  }
+  .conteiner .allWith .fovoritet #yashilsariq:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+  }
+  .conteiner .allWith .fovoritet #wkatta:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+  }
+  .conteiner .allWith .fovoritet #disk:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+  }
+  .conteiner .allWith .fovoritet #mgail:hover{
+     transform: scale(1.5);
+     transition: 1s all;
+    }
+  .conteiner .allWith .fovoritet #gogleg:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+  }
+  .conteiner .allWith .fovoritet #karobka:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+  }
+  .conteiner .allWith .fovoritet #qizilpushti:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+  }
+  .conteiner .allWith .fovoritet #goglegg:hover{
+    transform: scale(1.5);
+    transition: 1s all;
+  }
+  .conteiner .allWith .fovoritet #yutub:hover{
+    transform: scale(1.5);
+    transition:  1s all;
+  }
+  .conteiner .allWith .fovoritet #kakarob:hover{
+    transform: scale(1.5);
+    transition:  1s all;
+  }
+/*  */
+.conteiner .lates{
+    margin-top: 180px;
+}
+.conteiner .lates .allWith #ticles{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+.conteiner .lates .allWith .visual{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.conteiner .lates .allWith .visual .left6{
+    width: 29%;
+
+}
+.conteiner .lates .allWith .visual .left6 img{
+    width: 100%;
+}
+.conteiner .lates .allWith .visual .left6 span{
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    background-color:rgb(247, 162, 253);
+    border-radius: 12px;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.conteiner .lates .allWith .visual .left6 p{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.conteiner .lates .allWith .visual .left6 i{
+    font-size: 20px;
+}
+
+.conteiner .lates .allWith .visual .hit2{
+    width: 29%;
+}
+.conteiner .lates .allWith .visual .hit2 img{
+    width: 100%;
+}
+
+.conteiner .lates .allWith .visual .hit2 span{
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    background-color:rgb(176, 230, 245);
+    border-radius: 12px;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+.conteiner .lates .allWith .visual .hit2 p{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.conteiner .lates .allWith .visual .hit2 i{
+    font-size: 20px;
+}
+
+.conteiner .lates .allWith .visual .right6{
+    width: 29%;
+}
+.conteiner .lates .allWith .visual .right6 img{
+    width: 100%;
+}
+.conteiner .lates .allWith .visual .right6 span{
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    background-color:pink;
+    border-radius: 12px;
+    position: relative;
+    top: 40px;
+    font-size: 20px;
+}
+
+.conteiner .lates .allWith .visual .right6 p{
+    font-size: 30px;
+    margin-top: 80px;
+}
+.conteiner .lates .allWith .visual .right6 i{
+    font-size: 20px;
+}
+/*  */
+.conteiner .lovecoll{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    background-image: url("/rasmlar/Rectangle.png");
+    color: white;
+    position:relative ;
+
+}
+.conteiner .lovecoll h1{
+    text-align: center;
+    font-size: 70px ;
+    font-weight: 400;
+    position: relative;
+    top: 180px;
+   
+}
+.conteiner .lovecoll #uchchiz{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.conteiner .lovecoll #aaa{
+    position: absolute;
+    top: 449px;
+    left: 1620px;
+}
+.conteiner .lovecoll #kukytar{
+    position: absolute;
+    left: 1650px;
+    top: 0px;
+}
+.conteiner .lovecoll span{
+    border: 1px solid transparent;
+    padding: 15px 25px;
+    background-color: blue;
+    font-size: 25px;
+    border-radius: 15px;
+    position: absolute;
+    top: 500px;
+    left: 850px;
+}
+.conteiner .lovecoll #credcr{
+    position: absolute;
+    top: 490px;
+    left: 1120px;
+}
+/*  */
+.conteiner .licences .allWith .ohri{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+
+}
+.conteiner .licences .allWith .ohri ul{
+    font-size: 25px;
+}
+
+.conteiner .licences .allWith .ohri #riss{
+    position: absolute;
+    top: 700px;
+}
+.conteiner .licences .allWith .ohri #floow{
+    position: absolute;
+    top: 700px;
+    left: 1400px;
+}
+.conteiner .licences .allWith .ohri  p{
+    font-size: 20px;
+}
+.conteiner .licences .allWith .ohri #pricin{
+    margin-left: 200px;
+}
+/*  */
+/* tugadi */
